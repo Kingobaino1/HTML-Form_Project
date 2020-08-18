@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color:#ECEEF1;
@@ -9,14 +10,57 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    padding-top:10px;
+    padding-right: 30px;
 }
 .heading {
     align-self: flex-end;
+    display: flex;
 }
+
+.sign-in-details p{
+    color:#505050;
+    font-size: 12px;
+    line-height: 1.5;
+
+}
+.sign-in-details a{
+    color: #4C77CD;
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.sign-in {
+    margin-left: 10px;
+}
+
+.sign-in button{
+    background-color: #0077C5;
+    border: 1px solid #4c4c4c;
+    border-radius:4px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 0 20px;
+    height: 34px;
+    font: 400 13.3333px Arial;
+
+}
+
+.sign-in button i{
+    height: 1em;
+    width: 0.8em;
+    margin-top: 2px;
+    margin-right: 10px;
+
+    
+}
+
 .main-one {
    display: flex;
    align-self: center;
    flex-direction: column;
+   margin-top: 30px;
 }
 form {
     display: flex;
@@ -27,6 +71,15 @@ form {
 }
 .e-mail, .phone, .password, .submit{
     margin: 35px; 
+}
+.form-heading{
+    display: flex;
+    flex-direction: column;
+}
+.form-heading img{
+    width: 120px;
+    align-self: center;
+
 }
 .form-heading, .data-input {
     align-self: center;
