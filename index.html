@@ -7,8 +7,8 @@
     <link href="CSS/style.css" rel="stylesheet">
 </head>
 <body>
-    <div cclass="container">
-        <header class="head">
+    <div class="container">
+        <header class="heading">
             <div>
                 <p>Already have an Intuit account?</p>
                 <a href="#">I forgot my User ID or Password</a>
@@ -16,32 +16,36 @@
             <button type="button">Sign In</button>
         </header>
 
-        <main class="main">
+        <main class="main-one">
             <section class="form-heading">
                 <h1>Form Heading</h1>
                 <h2>Form Sub-Heading</h2>
             </section>
 
             <form action="#" method="POST">
-                <div>
+                <div class="div-one">
                     <h2>Create an Intuit account</h2>
                     <p>One account for everything Intuit, including Mint.</p>
-                    <a href="#">Learn more</a>
+                    <p><a href="#">Learn more</a></p>
                 </div>
                 
-                <div>
-                    <label for="e-mail">Email address</label>
-                    <input type="email" name="e-mail">
-
-                    <label for="phone">Phone (recommended)</label>
-                    <input type="text" name="phone">
-
-
-                    <label for="password">Password</label>
-                    <input type="password" name="password">
-
-                    <button type="submit" value="submit">Create Account</button>
-
+                <div class="data-input">
+                    <div class="e-mail">
+                        <label for="e-mail">Email address</label>
+                        <input id="e-mail" type="email" name="e-mail">
+                    </div>
+                    
+                    <div class="phone">
+                           <label for="phone">Phone (recommended)</label>
+                          <input id="phone" type="text" name="phone">
+                    </div>
+                    <div class="password">
+                         <label for="password">Password</label>
+                         <input type="password" name="password">
+                    </div>
+                    <div class="submit">
+                        <button type="submit" value="submit">Create Account</button>
+                    </div>
                     <div>
                         <p>By clicking Create account, you agree to our</p>
                         <a href="#">Terms</a>
@@ -55,9 +59,7 @@
                         <p>and</p>
                         <a href="#">Terms of Use.</a>
                     </div>
-                </div>
-
-                
+                </div>  
 
             </form>
             <section class="form-footer">
@@ -67,19 +69,17 @@
                     <a href="#">Privacy</a>
                     <a href="#">Security</a>
                 </div>    
-                <div>
-                    <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-                        Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-                </div>
 
             </section>
         </main>
 
 
         <footer class="foot">
+            <div>
+                    <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                        Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+                </div>
 
         </footer>
-
-    </div>
 </body>
 </html>

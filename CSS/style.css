@@ -1,7 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
 body {
     background-color:#ECEEF1;
 }
-
-form{
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    align-self: flex-end;
+}
+.main-one {
+   display: flex;
+   align-self: center;
+   flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    border: 2px solid lightgray;
+    width: 400px;
+}
+.e-mail, .phone, .password, .submit{
+    margin: 35px; 
+}
+.form-heading, .data-input {
+    align-self: center;
+}
+input {
+    width: 100%;
+    padding-top: 10px;
+}
+.div-one, .anchor {
+    align-self: center;
+}
+.foot {
+    align-self: center;
 }
