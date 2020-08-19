@@ -44,7 +44,7 @@ body {
   font-weight: normal;
   padding: 0 20px;
   height: 34px;
-  font: 400 13.3333px Arial;
+  font-family: 400 13.3333px Arial;
 }
 
 .sign-in button i {
@@ -85,7 +85,6 @@ form {
   display: flex;
 }
 
-
 .header-icon img {
   width: 20px;
   padding-right: 5px;
@@ -119,7 +118,10 @@ a {
   font-size: 12px;
 }
 
-.e-mail, .phone, .password, .submit {
+.e-mail,
+.phone,
+.password,
+.submit {
   padding: 15px 0;
 }
 
@@ -149,13 +151,14 @@ input {
   height: 20px;
 }
 
-.div-one, .anchor {
+.div-one,
+.anchor {
   align-self: center;
 }
 
 .data-input {
   font-weight: normal;
-  color: #404040;
+  color:#404040;
   font-size: 14px;
   line-height: 25px;
   display: flex;
@@ -169,7 +172,7 @@ input {
 .terms-conditions {
   align-self: center;
   text-align: center;
-    padding-top: 20px;
+  padding-top: 20px;
   font-size: 12px;
   color: #8d9096;
   font-style: italic;
