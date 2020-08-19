@@ -30,16 +30,16 @@ body {
 }
 
 .sign-in-details a {
-  color: #4C77CD;
+  color: #4c77cd;
   font-size: 12px;
   line-height: 1.5;
   text-decoration: none;
 }
 
 .sign-in button {
-  background-color: #0077C5;
+  background-color: #0077c5;
   border: 1px solid #4c4c4c;
-  border-radius:4px;
+  border-radius: 4px;
   color: white;
   cursor: pointer;
   font-weight: normal;
@@ -101,7 +101,7 @@ form {
 }
 
 .div-one h2 {
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-weight: 400;
   line-height: 1.1;
   font-size: 24px;
@@ -110,12 +110,12 @@ form {
 }
 
 .div-one p {
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-size: 14px;
 }
 
 a {
-  color: #0077C5;
+  color: #0077c5;
   text-decoration: none;
 }
 
@@ -123,9 +123,10 @@ a {
   font-size: 12px;
 }
 
-.e-mail, .phone, .password, .submit{
+.e-mail, .phone, .password, .submit {
   padding: 15px 0;
 }
+
 .form-heading {
   display: flex;
   flex-direction: column;
@@ -135,7 +136,7 @@ a {
   align-self: center;
 }
 
-.form-h1 img{
+.form-h1 img {
   width: 120px;
   align-self: center;
 }
@@ -179,7 +180,7 @@ input {
 }
 
 .privacy {
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   font-size: 10px;
   width: 100%;
   padding-bottom: 20px;
