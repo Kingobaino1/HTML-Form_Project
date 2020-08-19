@@ -70,6 +70,8 @@ form {
     background-color: white;
     border: 1px solid lightgray;
     width: 400px;
+    padding: 0;
+    margin: 20px;
 }
 .f-images{
     display: flex;
@@ -101,12 +103,13 @@ form {
     color: #4C4C4C;
     font-size: 14px;
 }
-
-.div-one a{
+a {
     color: #0077C5;
-    font-size: 12px;
     text-decoration: none;
+}
 
+.div-one a {
+    font-size: 12px;
 }
 
 .e-mail, .phone, .password, .submit{
@@ -145,12 +148,30 @@ input {
     color: #404040;
     font-size: 14px;
     line-height: 25px;
+    display: flex;
+    flex-direction: column;
    
 }
 
 .warning p{
     font-size:10px;
 }
-.foot {
+.terms-conditions, .privacy {
     align-self: center;
+    text-align: center;
+     padding-top: 20px;
+    font-size: 12px;
+    font-style: italic;
+}
+.privacy {
+    background-color: #ECEEF1;
+    font-size: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.security {
+    align-self: center;
+    text-emphasis: none;
+    color: #505050 ;
 }
