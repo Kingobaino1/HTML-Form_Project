@@ -8,123 +8,116 @@
     <script src="https://kit.fontawesome.com/b77bd6f2e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <header class="heading">
-            <div class="sign-in-details">
-                <p>Already have an Intuit account?</p>
-                <a href="#">I forgot my User ID or Password</a>
+  <div class="container d-flex">
+    <div class="heading d-flex">
+      <div class="sign-in-details">
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <div class="sign-in">
+        <button type="button"><i class="fas fa-lock"></i>Sign In</button>
+      </div>    
+    </div>
+
+    <main class="main-one d-flex a-self-c ">
+      <div class="form-heading d-flex a-self-c">
+        <div class="form-h1 a-self-c ">
+          <img src="images/Heading.PNG" alt="Heading">
+        </div>
+        
+        <div class="f-images d-flex">
+          <div class="form-images d-flex">
+            <div class="header-icon">
+              <img src="images/header-icon-01.svg" alt="Sub-Header-01">
             </div>
-            <div class="sign-in">
-                <button type="button"><i class="fas fa-lock"></i>Sign In</button>
+            <div >
+              <img src="images/text-01.svg" alt="Pic-01">
+            </div>
+              
+          </div>
+            
+          <div class="form-images d-flex">
+            <div class="header-icon"> 
+              <img src="images/header-icon-02.svg" alt="Sub-Header-02">
+            </div>
+            <div>
+              <img src="images/text-02.svg" alt="Pic-02"> 
+            </div>      
+          </div>
+            
+          <div class="form-images d-flex">
+            <div class="header-icon"> 
+                <img src="images/header-icon-03.svg" alt="Sub-Header-03">
+            </div>
+            <div>
+                <img src="images/text-03.svg" alt="Pic-03"> 
+            </div>
+          </div>
+
+        </div>
+            
+        </div>
+        <form class="d-flex" action="#" method="POST">
+            <div class="div-one a-self-c ">
+              <h2>Create an Intuit account</h2>
+              <p>One account for everything Intuit, including Mint.</p>
+              <a href="#">Learn more</a>
             </div>
             
-        </header>
+            <div class="data-input a-self-c">
+              <div class="e-mail">
+                <label for="e-mail">Email address</label>
+                <input id="e-mail" type="email" name="e-mail">
+              </div>
+              
+              <div class="phone">
+                  <label for="phone">Phone (recommended)</label>
+                  <input id="phone" type="tel" name="phone">
+                  <div class="warning">
+                    <p>Standard call, messaging or data rates may apply.</p>
+                  </div>
+              </div>
+              <div class="password">
+                  <label for="password">Password</label>
+                  <input id="password" type="password" name="password">
+              </div>
 
-        <main class="main-one">
-            <div class="form-heading">
-                <div class="form-h1">
-                    <img src="images/Heading.PNG" alt="Heading">
-                </div>
+              <div class="submit sign-in">
+                <button type="submit" value="submit"><i class="fas fa-lock"></i>Create Account</button>
+              </div>
+
+              <div class="terms-conditions a-self-c"> 
+                By clicking Create account, you agree to our<br>
+                <a href="#">Terms</a> and have read and acknowledge our
+                <a href="#">Privacy<br>Statement.</a>
+              </div>
+
+            </div> 
+          
+            <div class="privacy terms-conditions">
+                <p>Invisible reCAPTCHA by Google 
+                <a href="#">Privacy Policy</a>
+                and <a href="#">Terms of Use.</a></p>
                 
-                <div class="f-images">
-                    <div class="form-images">
-                        <div class="header-icon">
-                            <img src="images/header-icon-01.svg" alt="Sub-Header-01">
-                        </div>
-                        <div >
-                            <img src="images/text-01.svg" alt="Pic-01">
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="form-images">
-                        <div class="header-icon"> 
-                            <img src="images/header-icon-02.svg" alt="Sub-Header-02">
-                        </div>
-                        <div>
-                            <img src="images/text-02.svg" alt="Pic-02"> 
-                        </div>
-                            
-    
-                    </div>
-                    
-                    <div class="form-images">
-                        <div class="header-icon"> 
-                            <img src="images/header-icon-03.svg" alt="Sub-Header-03">
-                        </div>
-                        <div>
-                            <img src="images/text-03.svg" alt="Pic-03"> 
-                        </div>
-                    </div>
-    
-                </div>
-                
-            </div>
+            </div>   
 
-            <form action="#" method="POST">
-                <div class="div-one">
-                    <h2>Create an Intuit account</h2>
-                    <p>One account for everything Intuit, including Mint.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                
-                <div class="data-input">
-                    <div class="e-mail">
-                        <label for="e-mail">Email address</label>
-                        <input id="e-mail" type="email" name="e-mail">
-                    </div>
-                    
-                    <div class="phone">
-                            <label for="phone">Phone (recommended)</label>
-                            <input id="phone" type="text" name="phone">
-                            <div class="warning">
-                                <p>Standard call, messaging or data rates may apply.</p>
-                            </div>
-                    </div>
-                    <div class="password">
-                         <label for="password">Password</label>
-                         <input id="password" type="password" name="password">
-                    </div>
+        </form>
+    </main>
+    <footer class="foot">
+      <div class="form-footer">
+          <div class="security a-self-c">
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+          </div>    
 
-                    <div class="submit sign-in">
-                        <button type="submit" value="submit"><i class="fas fa-lock"></i>Create Account</button>
-                    </div>
-
-                    <div class="terms-conditions">
-                        By clicking Create account, you agree to our<br>
-                        <a href="#">Terms</a> and have read and acknowledge our
-                        <a href="#">Privacy<br>Statement.</a>
-                    </div>
-
-                </div> 
-             
-                <div class="privacy terms-conditions">
-                    <p>Invisible reCAPTCHA by Google 
-                    <a href="#">Privacy Policy</a>
-                    and <a href="#">Terms of Use.</a></p>
-                    
-                </div>   
-    
-            </form>
-            <section class="form-footer">
-
-                <div class="security">
-                    <a href="#">Legal</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Security</a>
-                </div>    
-
-            </section>
-        </main>
-
-
-        <footer class="foot">
-            <div>
-                    <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-                        Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-            </div>
-
-        </footer>
         </div>
+      <div>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+      </div>
+    </footer>
+        
+      </div>
 </body>
 </html>

@@ -8,9 +8,11 @@
 body {
   background-color: #eceef1;
 }
+.d-flex {
+  display: flex;
+}
 
 .container {
-  display: flex;
   flex-direction: column;
   padding-top: 10px;
   padding-right: 30px;
@@ -18,7 +20,6 @@ body {
 
 .heading {
   align-self: flex-end;
-  display: flex;
 }
 
 .sign-in-details p {
@@ -62,16 +63,16 @@ a {
   width: 100%;
   padding: 0;
 }
+.a-flex-c {
+   align-self: center;
+}
 
 .main-one {
-  display: flex;
-  align-self: center;
   flex-direction: column;
   margin-top: 30px;
 }
 
 form {
-  display: flex;
   flex-direction: column;
   background-color: white;
   border: 1px solid lightgray;
@@ -81,12 +82,7 @@ form {
 }
 
 .f-images {
-  display: flex;
   padding: 20px 0;
-}
-
-.form-images {
-  display: flex;
 }
 
 .header-icon img {
@@ -125,7 +121,6 @@ form {
 }
 
 .form-heading {
-  display: flex;
   flex-direction: column;
 }
 
@@ -151,17 +146,11 @@ input {
   height: 20px;
 }
 
-.div-one,
-.anchor {
-  align-self: center;
-}
-
 .data-input {
   font-weight: normal;
   color: #404040;
   font-size: 14px;
   line-height: 25px;
-  display: flex;
   flex-direction: column;
 }
 
@@ -170,7 +159,6 @@ input {
 }
 
 .terms-conditions {
-  align-self: center;
   text-align: center;
   padding-top: 20px;
   font-size: 12px;
@@ -187,7 +175,6 @@ input {
 }
 
 .security {
-  align-self: center;
   text-emphasis: none;
   font-size: 12px;
 }
@@ -212,4 +199,5 @@ input {
   text-align: center;
   width: 735px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
