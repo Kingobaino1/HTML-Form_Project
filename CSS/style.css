@@ -21,7 +21,7 @@ body {
   display: flex;
 }
 
-.sign-in-details p{
+.sign-in-details p {
   color:#505050;
   font-size: 12px;
   line-height: 1.5;
@@ -57,7 +57,7 @@ body {
 
 }
 
-.submit button{
+.submit button {
   width: 100%;
   padding: 0;
 
@@ -80,17 +80,17 @@ form {
   margin: 0 auto;
 }
 
-.f-images{
+.f-images {
   display: flex;
   padding: 20px 0;
 }
 
-.form-images{
+.form-images {
   display: flex;
 }
 
 
-.header-icon img{
+.header-icon img {
   width: 20px;
   padding-right: 5px;
   padding-left: 10px;
@@ -109,7 +109,7 @@ form {
   padding: 30px 0;
 }
 
-.div-one p{
+.div-one p {
   color: #4C4C4C;
   font-size: 14px;
 }
@@ -126,12 +126,12 @@ a {
 .e-mail, .phone, .password, .submit{
   padding: 15px 0;
 }
-.form-heading{
+.form-heading {
   display: flex;
   flex-direction: column;
 }
 
-.form-h1{
+.form-h1 {
   align-self: center;
 }
 
@@ -144,19 +144,19 @@ a {
   align-self: center;
 }
 
-input{
+input {
   width: 100%;
   padding-top: 10px;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   border-radius: .20em;
   height: 20px;
 }
 
-.div-one, .anchor{
+.div-one, .anchor {
   align-self: center;
 }
 
-.data-input{
+.data-input {
   font-weight: normal;
   color: #404040;
   font-size: 14px;
@@ -165,11 +165,11 @@ input{
   flex-direction: column;
 }
 
-.warning p{
+.warning p {
   font-size:10px;
 }
 
-.terms-conditions{
+.terms-conditions {
   align-self: center;
   text-align: center;
     padding-top: 20px;
@@ -178,7 +178,7 @@ input{
   font-style: italic;
 }
 
-.privacy{
+.privacy {
   background-color: #ECEEF1;
   font-size: 10px;
   width: 100%;
@@ -186,26 +186,26 @@ input{
   font-style: normal;
 }
 
-.security{
+.security {
   align-self: center;
   text-emphasis: none;
   font-size: 12px;
 }
 
-.security a{
+.security a {
   color: #505050;
   margin: 5px;
 }
 
-.security a:hover{
+.security a:hover {
   text-decoration: underline;
 }
 
-.form-footer{
+.form-footer {
   margin: 0 auto;
 }
 
-.foot{
+.foot {
   font-size: 12px;
   color: #505050;
   margin: 0 auto;
