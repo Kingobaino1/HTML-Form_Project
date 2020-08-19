@@ -49,7 +49,6 @@ a {
   font-weight: normal;
   padding: 0 20px;
   height: 34px;
-  font-family: Arial;
 }
 
 .sign-in button i {
@@ -148,7 +147,7 @@ input {
   width: 100%;
   padding-top: 10px;
   border: 1px solid #c1c5c8;
-  border-radius: 0.20em;
+  border-radius: 3px;
   height: 20px;
 }
 
@@ -212,4 +211,5 @@ input {
   margin: 0 auto;
   text-align: center;
   width: 735px;
+  margin-bottom: 20px;
 }
