@@ -1,18 +1,21 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-    font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: content-box;
+        font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
-    background-color:#ECEEF1;
+    background-color:#eceef1;
 }
+
 .container {
     display: flex;
     flex-direction: column;
-    padding-top:10px;
+    padding-top: 10px;
     padding-right: 30px;
 }
+
 .heading {
     align-self: flex-end;
     display: flex;
@@ -25,15 +28,15 @@ body {
     margin-right: 10px;
 
 }
-.sign-in-details a{
+
+.sign-in-details a {
     color: #4C77CD;
     font-size: 12px;
     line-height: 1.5;
     text-decoration: none;
 }
 
-
-.sign-in button{
+.sign-in button {
     background-color: #0077C5;
     border: 1px solid #4c4c4c;
     border-radius:4px;
@@ -46,24 +49,27 @@ body {
 
 }
 
-.sign-in button i{
+.sign-in button i {
     height: 1em;
     width: 0.8em;
     margin-top: 2px;
     margin-right: 10px;
  
 }
+
 .submit button{
     width: 100%;
     padding: 0;
 
 }
+
 .main-one {
    display: flex;
    align-self: center;
    flex-direction: column;
    margin-top: 30px;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -73,13 +79,16 @@ form {
     padding: 0;
     margin: 0 auto;
 }
+
 .f-images{
     display: flex;
     padding: 20px 0;
 }
+
 .form-images{
     display: flex;
 }
+
 
 .header-icon img{
     width: 20px;
@@ -90,6 +99,7 @@ form {
 .div-one {
     text-align: center;
 }
+
 .div-one h2 {
     color: #4C4C4C;
     font-weight: 400;
@@ -103,6 +113,7 @@ form {
     color: #4C4C4C;
     font-size: 14px;
 }
+
 a {
     color: #0077C5;
     text-decoration: none;
@@ -113,25 +124,26 @@ a {
 }
 
 .e-mail, .phone, .password, .submit{
-    padding: 15px 0; 
-    
-
+    padding: 15px 0;    
 }
 .form-heading{
     display: flex;
     flex-direction: column;
 }
+
 .form-h1{
     align-self: center;
 }
+
 .form-h1 img{
     width: 120px;
     align-self: center;
-
 }
+
 .form-heading, .data-input {
     align-self: center;
 }
+
 input {
     width: 100%;
     padding-top: 10px;
@@ -139,6 +151,7 @@ input {
     border-radius: .20em;
     height: 20px;
 }
+
 .div-one, .anchor {
     align-self: center;
 }
@@ -149,13 +162,13 @@ input {
     font-size: 14px;
     line-height: 25px;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column; 
 }
 
 .warning p{
     font-size:10px;
 }
+
 .terms-conditions {
     align-self: center;
     text-align: center;
@@ -164,6 +177,7 @@ input {
     color: #8d9096;
     font-style: italic;
 }
+
 .privacy {
     background-color: #ECEEF1;
     font-size: 10px;
@@ -177,16 +191,20 @@ input {
     text-emphasis: none;
     font-size: 12px;
 }
+
 .security a{
     color: #505050;
     margin: 5px;
 }
+
 .security a:hover{
     text-decoration: underline;
 }
+
 .form-footer{
     margin: 0 auto;
 }
+
 .foot{
     font-size: 12px;
     color: #505050;
