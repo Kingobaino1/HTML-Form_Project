@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color:#eceef1;
+  background-color: #eceef1;
 }
 
 .container {
@@ -26,7 +26,6 @@ body {
   font-size: 12px;
   line-height: 1.5;
   margin-right: 10px;
-
 }
 
 .sign-in-details a {
@@ -46,7 +45,6 @@ body {
   padding: 0 20px;
   height: 34px;
   font: 400 13.3333px Arial;
-
 }
 
 .sign-in button i {
@@ -54,13 +52,11 @@ body {
   width: 0.8em;
   margin-top: 2px;
   margin-right: 10px;
-
 }
 
 .submit button {
   width: 100%;
   padding: 0;
-
 }
 
 .main-one {
