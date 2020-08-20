@@ -18,6 +18,7 @@ body {
 .f-direction {
   flex-direction: column;
 }
+
 .heading {
   align-self: flex-end;
 }
