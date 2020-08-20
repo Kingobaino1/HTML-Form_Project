@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# INTUIT SIGN UP PAGE
+# HTML FORMS
 
 > This is a Microverse project where we have to create a replica of INTUIT signup page.
 
