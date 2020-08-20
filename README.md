@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# EMBEDDING IMAGES AND VIDEO
+# INTUIT SIGN UP PAGE
 
 > This is a Microverse project where we have to create a replica of INTUIT signup page.
 
