@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eceef1;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-direction {
+  flex-direction: column;
+}
+
+.heading {
+  align-self: flex-end;
+}
+
+.f-size {
+  font-size: 12px;
+}
+
+.sign-in-details p {
+  color: #505050;
+  line-height: 1.5;
+  margin-right: 10px;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.sign-in-details a {
+  color: #4c77cd;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.sign-in button {
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 0 20px;
+  height: 34px;
+}
+
+.sign-in button i {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.submit button {
+  width: 100%;
+  padding: 0;
+}
+
+.main-one {
+  margin-top: 30px;
+}
+
+form {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 400px;
+  padding: 0;
+}
+
+.f-images {
+  padding: 20px 0;
+}
+
+.header-icon img {
+  width: 20px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.div-one {
+  text-align: center;
+}
+
+.div-one h2 {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 30px 0;
+}
+
+.div-one p {
+  color: #4c4c4c;
+  font-size: 14px;
+}
+
+.e-mail,
+.phone,
+.password,
+.submit {
+  padding: 15px 0;
+}
+
+.form-h1-images {
+  width: 120px;
+}
+
+.a-self-c {
+  align-self: center;
+}
+
+input {
+  width: 100%;
+  padding-top: 10px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  height: 20px;
+}
+
+.data-input {
+  font-weight: normal;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.warning p {
+  font-size: 10px;
+}
+
+.terms-conditions {
+  text-align: center;
+  padding-top: 20px;
+  color: #8d9096;
+  font-style: italic;
+}
+
+.privacy {
+  background-color: #eceef1;
+  font-size: 10px;
+  width: 100%;
+  padding-bottom: 20px;
+  font-style: normal;
+}
+
+.security {
+  text-emphasis: none;
+}
+
+.security a {
+  color: #505050;
+  margin: 5px;
+}
+
+.security a:hover {
+  text-decoration: underline;
+}
+
+.a-margin {
+  margin: 0 auto;
+}
+
+.foot {
+  color: #505050;
+  margin: 0 auto;
+  text-align: center;
+  width: 735px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
