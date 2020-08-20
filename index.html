@@ -7,22 +7,23 @@
     <link href="CSS/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b77bd6f2e2.js" crossorigin="anonymous"></script>
 </head>
-<body>
-  <div class="container d-flex">
-    <div class="heading d-flex">
+
+<body class="d-flex f-direction">
+
+    <header class="heading d-flex ">
       <div class="sign-in-details">
-        <p>Already have an Intuit account?</p>
-        <a href="#">I forgot my User ID or Password</a>
+        <p class="f-size">Already have an Intuit account?</p>
+        <a class="f-size" href="#">I forgot my User ID or Password</a>
       </div>
       <div class="sign-in">
         <button type="button"><i class="fas fa-lock"></i>Sign In</button>
       </div>    
-    </div>
+    </header>
 
-    <main class="main-one d-flex a-self-c ">
-      <div class="form-heading d-flex a-self-c">
-        <div class="form-h1 a-self-c ">
-          <img src="images/Heading.PNG" alt="Heading">
+    <main class="main-one d-flex a-self-c f-direction">
+      <div class="form-heading d-flex a-self-c f-direction">
+        <div class="form-h1 a-self-c">
+          <img class="form-h1-images a-self-c" src="images/Heading.PNG" alt="Heading">
         </div>
         
         <div class="f-images d-flex">
@@ -57,14 +58,14 @@
         </div>
             
         </div>
-        <form class="d-flex" action="#" method="POST">
+        <form class="d-flex f-direction a-margin" action="#" method="POST">
             <div class="div-one a-self-c ">
               <h2>Create an Intuit account</h2>
               <p>One account for everything Intuit, including Mint.</p>
-              <a href="#">Learn more</a>
+              <a class="f-size" href="#">Learn more</a>
             </div>
             
-            <div class="data-input a-self-c">
+            <div class="data-input a-self-c f-direction">
               <div class="e-mail">
                 <label for="e-mail">Email address</label>
                 <input id="e-mail" type="email" name="e-mail">
@@ -86,26 +87,24 @@
                 <button type="submit" value="submit"><i class="fas fa-lock"></i>Create Account</button>
               </div>
 
-              <div class="terms-conditions a-self-c"> 
+              <div class="terms-conditions a-self-c f-size"> 
                 By clicking Create account, you agree to our<br>
                 <a href="#">Terms</a> and have read and acknowledge our
                 <a href="#">Privacy<br>Statement.</a>
               </div>
-
             </div> 
           
             <div class="privacy terms-conditions">
                 <p>Invisible reCAPTCHA by Google 
                 <a href="#">Privacy Policy</a>
                 and <a href="#">Terms of Use.</a></p>
-                
             </div>   
-
         </form>
     </main>
-    <footer class="foot">
-      <div class="form-footer">
-          <div class="security a-self-c">
+
+    <footer class="foot f-size">
+      <div class="form-footer a-margin">
+          <div class="security a-self-c f-size">
             <a href="#">Legal</a>
             <a href="#">Privacy</a>
             <a href="#">Security</a>
@@ -118,6 +117,5 @@
       </div>
     </footer>
         
-      </div>
 </body>
 </html>
